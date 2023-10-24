@@ -1,1 +1,11 @@
-
+html{
+    background-color: black
+}
+h1{
+    color: skyblue;
+    width:600;
+}
+p{
+    color:white;
+    width: 500
+}
