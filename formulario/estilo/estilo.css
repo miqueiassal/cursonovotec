@@ -1,12 +1,14 @@
-html{  
+h1 { box-sizing: border-box; }
+html {  
   background: gray;
 }
-h1{
+h1 {
   color: aquamarine;
   width: 250px;
+  height: 50px;
   padding: 50 50px;
 }
-form{
+form {
   background: #f5f5dc;
   border: 1px solid black;
 }
