@@ -1,5 +1,5 @@
 html{  
-  backgroud: gray;
+  background: gray;
 }
 h1{
   color: aquamarine;
@@ -7,7 +7,7 @@ h1{
   padding: 50 50px;
 }
 form{
-  backgroud: #f5f5dc;
+  background: #f5f5dc;
   border: 1px solid black;
 }
 
