@@ -7,12 +7,13 @@ h1 {
   width: 500px;
   height: 50px;
   padding: 50 50px;
-  margin-inline:100px;
+  margin-inline:auto;
 }
 form {
   border: 1px solid black;
   width: 500px;
   height: min-content;
+  margin-inline: auto;
 }
 p{
   text-align: center;
