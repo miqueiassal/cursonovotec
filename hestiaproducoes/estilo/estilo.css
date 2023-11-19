@@ -1,5 +1,35 @@
-div.top{
-    border: 1px solid black;
-    grid-area: header;
+body{
+    display: grid;
 }
-div.
+div{
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+    'top top top'
+    'left principal principal'
+    'baixo baixo baixo';
+}
+#top{
+    border: 1px solid black;
+    display: grid;
+    grid-area: top; 
+    margin: 2%;
+    height: min-content;
+}
+#left{
+    border: 1px solid black;
+    box-shadow: 2px black;
+    display: grid;
+    grid-area: left;
+     
+}
+#principal{
+    border: 1px solid black;
+    display: grid;
+    grid-area: principal;
+}
+#baixo{
+    border: 1px solid black;
+    display: grid;
+    grid-area: baixo;
+}
