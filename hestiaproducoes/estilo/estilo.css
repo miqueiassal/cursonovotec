@@ -1,35 +1,89 @@
-body{
-    display: grid;
+a{
+    text-decoration: none ;
 }
-div{
+div.container{
     display: grid;
-    gap: 5px;
+    gap: 10px;
     grid-template-areas: 
     'top top top'
     'left principal principal'
     'baixo baixo baixo';
+    border-radius: 20px;
 }
 #top{
     border: 1px solid black;
-    display: grid;
+    box-shadow: 8px 4px 4px black;
+
     grid-area: top; 
     margin: 2%;
-    height: min-content;
+    height: 60px;
+    text-decoration: underline;
+    border-radius: 20px;
+    text-align: center;
 }
 #left{
     border: 1px solid black;
-    box-shadow: 2px black;
+    box-shadow: 8px 4px 4px black;
     display: grid;
-    grid-area: left;
-     
+    grid-area: left;   
+    border-radius: 20px;
+    height: 500px;
+    list-style:none;
 }
 #principal{
     border: 1px solid black;
+    box-shadow: 8px 4px 4px black;
     display: grid;
     grid-area: principal;
+    border-radius: 20px;
+    height: 500px;
 }
 #baixo{
     border: 1px solid black;
+    box-shadow: 8px 4px 4px black;
     display: grid;
     grid-area: baixo;
+    border-radius: 20px;
+    list-style:none;
+}
+ul li {
+    display: inline-block;
+    list-style:none;
+    text-align: center;
+    
+}
+li{
+    position:relative;
+    border-radius: 20px;
+    margin: 5px;
+    text-align: center;
+    display: block;
+    width: 30%;
+    margin-inline: auto;
+    border: solid 1px black;
+    height: 20px;
+}
+li  ul{
+    position:absolute;
+    top:auto;
+    bottom: auto;
+    background-color: grey;
+    display:none;
+    }
+li:hover ul, li.over ul{
+    display: block;
+  
+    text-align: center;
+    width: 100%;
+    border: solid 1px black;
+    border-radius: 20px;
+}
+/*li ul li{
+    border:1px solid blue;
+    display:block;
+    width:30%;
+    text-align: center;
+}*/
+ul{
+    padding: 0 0 0 0 ;
 }
