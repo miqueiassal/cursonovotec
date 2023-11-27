@@ -11,7 +11,7 @@
     margin: 10%;
     border-radius: 20px;
     box-shadow: 4px 4px 8px solid black;
-    border: black;
+    border: solid black;
     grid-template-columns: 50% 50%;
     grid-template-rows: min-content min-content min-content;
 }
@@ -21,7 +21,6 @@
 #foto{
     grid-area: foto;
     height: 25%;
-    width: 25%;
 }
 #sobremim{
     grid-area: sobremim;
