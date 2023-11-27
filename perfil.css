@@ -1,0 +1,35 @@
+#container{
+    display: grid;
+    grid-template-areas: 
+    'titulo titulo'
+    'foto sobremim'
+    'foto texsobremim'
+    'escolar curiosidades'
+    'texescolar texcuriosidades';
+    grid-area: container;
+    gap: 10px;
+}
+#titulo{
+    grid-area: titulo;
+}
+#foto{
+    grid-area: foto;
+}
+#sobremim{
+    grid-area: sobremim;
+}
+#texsobremim{
+    grid-area: texsobremim;
+}
+#escolar{
+    grid-area: escolar;
+}
+#texescolar{
+    grid-area: texescolar;
+}
+#curiosidades{
+    grid-area: curiosidades;
+}
+#texcuriosidades{
+    grid-area: texcuriosidades;
+}

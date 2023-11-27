@@ -1,0 +1,56 @@
+body{
+    margin: 70px;
+    border: solid blue 3px;
+    background-color:  grey;
+    padding: auto;
+}
+h3{
+    border: solid red 5px;
+    background-color: brown;
+    padding: 10px;
+    text-align:center;
+}
+div{
+    border: solid black 4px;
+    background-color: grey;
+    padding: 40px;
+    text-align: center;
+}
+p1{
+    margin-inline: auto;
+    border: solid green 2px;
+    background-color: rgb(36, 109, 36);
+    padding: 10px;
+    text-align:center;
+    display: block;
+    width: 50%;
+}
+p2{
+    margin-inline: auto;
+    border: solid greenyellow 4px;
+    background-color: grey;
+    padding: 10px;
+    text-align:center;
+    display: block;
+    width: 50%;
+}
+h4{
+    border: solid blue 4px;
+    background-color: pink;
+    padding: 10px;
+    text-align:center;
+   
+}
+p3{
+    border: solid brown 3px;
+    background-color: aqua;
+    padding: 10px;
+    text-align:center;
+    display: block;
+}
+span{
+    border: solid green;
+    background-color: white;
+    padding: auto;
+    text-align:center;
+}
