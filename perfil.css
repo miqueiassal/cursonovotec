@@ -2,41 +2,49 @@
     display: grid;
     grid-template-areas: 
     'titulo titulo'
-    'foto sobremim'
-    'foto texsobremim'
+    'foto foto'
+    'sobremim texsobremim'
     'escolar curiosidades'
     'texescolar texcuriosidades';
     grid-area: container;
     gap: 10px;
     margin: 10%;
     border-radius: 20px;
-    box-shadow: 4px 4px 8px solid black;
+    box-shadow: 6px 6px 12px black;
     border: solid black;
     grid-template-columns: 50% 50%;
-    grid-template-rows: min-content min-content min-content;
+    grid-template-rows: 10% 20% 20% 10% 20%;
 }
 #titulo{
     grid-area: titulo;
+    text-align: center;
 }
 #foto{
     grid-area: foto;
-    height: 25%;
+    height: 100%;
+    text-align: center;
 }
 #sobremim{
     grid-area: sobremim;
+    text-align: center;
 }
 #texsobremim{
     grid-area: texsobremim;
+    text-align: justify;
 }
 #escolar{
     grid-area: escolar;
+    text-align: center;
 }
 #texescolar{
     grid-area: texescolar;
+    text-align: justify;
 }
 #curiosidades{
     grid-area: curiosidades;
+    text-align: center;
 }
 #texcuriosidades{
     grid-area: texcuriosidades;
+    text-align: justify;
 }
